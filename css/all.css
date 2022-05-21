@@ -1,0 +1,227 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* * {
+    outline: 1px solid black;
+} */
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.wrap {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    font-weight: bold;
+}
+
+.menu a {
+    display: block;
+    text-decoration: none;
+    color: #3F5D45;
+    padding: 10px 32px;
+}
+
+.menu a:hover {
+    color: white;
+    background-color: #3F5D45;
+}
+
+.banner {
+    margin-bottom: 60px;
+}
+
+.content {
+    display: flex;
+}
+
+.product-menu {
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.product-menu h2 {
+    width: 300px;
+    color: #EAF0ED;
+    background: #3F5D45;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.product-menu ul a {
+    display: block;
+    text-decoration: none;
+    color: #3F5D45;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border: 1px solid #EAF0ED;
+}
+
+.product-menu ul a:hover {
+    background-color: #EAF0ED;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-body {
+    display: flex;
+    font-size: 20px;
+    text-align: center;
+    color: #3F5D45;
+    border: 1px solid #EAF0ED;
+}
+
+.product-body h3 {
+    padding: 14px 33px;
+    border-right: 1px solid #EAF0ED;
+}
+
+.product-body p {
+    padding: 14px 20px 14px 25px;
+    font-weight: bold;
+}
+
+.product-list li {
+    width: 300px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.add-cart {
+    display: block;
+    text-decoration: none;
+    font-size: 24px;
+    color: #3F5D45;
+    background: #EAF0ED;
+    padding: 16px 90px;
+    font-weight: bold;
+}
+
+.add-cart:hover {
+    background: #3F5D45;
+    color: #EAF0ED;
+}
+
+.product-img {
+    position: relative;
+}
+
+.product-img h4 {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    width: 36px;
+    padding: 10.08px 10px;
+    color: #EAF0ED;
+    background: #3F5D45;
+    line-height: 1.2;
+    font-weight: bold;
+}
+
+.favorite {
+    position: absolute;
+    top: 16px;
+    right: 20px;
+}
+
+.pagination {
+    margin-top: 10px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content:flex-end;
+}
+
+.pagination li a {
+    display: block;
+    width: 60px;
+    padding: 18px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #3F5D45;
+    border: 1px solid #EAF0ED;
+    text-align: center;
+}
+
+.pagination li a:hover {
+    color: #EAF0ED;
+    background: #3F5D45;
+    border: 1px solid #3F5D45;
+}
+
+.pagination li:first-child a:hover, 
+.pagination li:last-child a:hover {
+    background: #EAF0ED;
+    border: 1px solid #EAF0ED;
+}
