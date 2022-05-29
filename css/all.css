@@ -146,6 +146,7 @@ img {
 .product-body h3 {
     padding: 14px 33px;
     border-right: 1px solid #EAF0ED;
+    width: 173px;
 }
 
 .product-body p {
@@ -178,7 +179,7 @@ img {
     position: relative;
 }
 
-.product-img h4 {
+.product-img p {
     position: absolute;
     top: 0;
     left: 20px;
